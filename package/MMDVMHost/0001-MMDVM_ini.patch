@@ -1,0 +1,11 @@
+--- a/MMDVM.ini	2022-12-18 19:12:04.719883997 +0900
++++ b/MMDVM.ini	2022-12-18 19:14:14.419846795 +0900
+@@ -24,7 +24,7 @@
+ [Log]
+ # Logging levels, 0=No logging
+ DisplayLevel=1
+-FileLevel=1
++FileLevel=0
+ FilePath=.
+ FileRoot=MMDVM
+ FileRotate=1

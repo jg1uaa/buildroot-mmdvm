@@ -1,0 +1,11 @@
+--- a/DAPNETGateway.ini	2021-12-13 19:25:03.000000000 +0900
++++ b/DAPNETGateway.ini	2022-12-18 20:09:42.689815666 +0900
+@@ -13,7 +13,7 @@
+ [Log]
+ # Logging levels, 0=No logging
+ DisplayLevel=1
+-FileLevel=1
++FileLevel=0
+ FilePath=.
+ FileRoot=DAPNETGateway
+ FileRotate=1

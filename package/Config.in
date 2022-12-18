@@ -1,0 +1,14 @@
+config BR2_PACKAGE_MMDVMHOST
+	bool "MMDVMHost"
+	help
+		MMDVMHost
+
+config BR2_PACKAGE_DMRGATEWAY
+	bool "DMRGateway"
+	help
+		DMRGateway
+
+config BR2_PACKAGE_DAPNETGATEWAY
+	bool "DAPNETGateway"
+	help
+		DAPNETGateway

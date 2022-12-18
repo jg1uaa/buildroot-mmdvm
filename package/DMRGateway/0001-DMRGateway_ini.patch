@@ -1,0 +1,11 @@
+--- a/DMRGateway.ini	2022-12-18 19:32:15.866008011 +0900
++++ b/DMRGateway.ini	2022-12-18 19:33:30.089837732 +0900
+@@ -13,7 +13,7 @@
+ [Log]
+ # Logging levels, 0=No logging
+ DisplayLevel=1
+-FileLevel=1
++FileLevel=0
+ FilePath=.
+ FileRoot=DMRGateway
+ FileRotate=1
