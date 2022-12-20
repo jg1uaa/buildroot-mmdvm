@@ -12,3 +12,8 @@ config BR2_PACKAGE_DAPNETGATEWAY
 	bool "DAPNETGateway"
 	help
 		DAPNETGateway
+
+config BR2_PACKAGE_MMDVMCAL
+	bool "MMDVMCal"
+	help
+		MMDVMCal

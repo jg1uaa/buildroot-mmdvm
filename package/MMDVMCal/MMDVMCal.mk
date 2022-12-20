@@ -1,0 +1,14 @@
+MMDVMCAL_VERSION = bc72a8f2b3912191f6a5f2ada0b7372ffa006024
+MMDVMCAL_SITE = https://github.com/g4klx/MMDVMCal
+MMDVMCAL_SITE_METHOD = git
+MMDVMCAL_LICENSE = GPLv2
+
+define MMDVMCAL_BUILD_CMDS
+	$(MAKE) CC="$(TARGET_CC)" CXX="$(TARGET_CXX)" LD="$(TARGET_LD)" -C $(@D)
+endef
+
+define MMDVMCAL_INSTALL_TARGET_CMDS
+	$(INSTALL) -m 0755 $(@D)/MMDVMCal $(TARGET_DIR)/usr/bin/MMDVMCal
+endef
+
+$(eval $(generic-package))
